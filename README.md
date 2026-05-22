@@ -9,8 +9,9 @@ A beautiful, terminal-based weather application built with Python. This CLI leve
 *   **Beautiful Output:** Utilizes `rich` for stunning, styled terminal output, including structured tables for metrics.
 *   **Robust Error Handling:** Gracefully manages network failures and city-not-found errors, displaying user-friendly messages instead of raw stack traces.
 
-## 🚀 Getting Started
 
+## 🚀 Getting Started
+ 
 ### Prerequisites
 
 You need Python installed (3.8+) and the `uv` package manager.
@@ -37,6 +38,15 @@ uv run main.py [CITY_NAME]
 ```bash
 uv run main.py London
 ```
+
+### 🧪 Testing
+
+To run the included test suite, use:
+
+```bash
+uv run pytest
+```
+
 
 ## 🔧 Technical Overview
 
